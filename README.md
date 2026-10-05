@@ -16,7 +16,7 @@ Repositório com os projetos desenvolvidos durante o curso "Jornada Python" da "
 Cada projeto tem seu próprio README com instruções detalhadas. De forma geral:
 
 ```bash
-git clone https://github.com/rodrigokk1975/projetos-python-hashtag.git
+git clone https://github.com/rodrigokk1975/Jornada_Python.git
 cd Jornada_Python/nome-da-pasta-do-projeto
 ```
 
