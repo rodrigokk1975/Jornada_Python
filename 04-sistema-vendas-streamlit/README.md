@@ -2,7 +2,7 @@
 
 # 🛒 Sistema de Vendas com Dashboard usando Python e Streamlit
 
-Projeto desenvolvido durante o curso **Python Impressionador (Intensivão de Python)** da **Hashtag Treinamentos**.
+Projeto desenvolvido durante o curso "Jornada Python" da "Hashtag Programacao".
 
 Aplicação web para **cadastrar vendas** e **acompanhar os resultados em um dashboard**. As vendas são salvas em um arquivo CSV e os gráficos são atualizados com os dados cadastrados.
 
@@ -26,25 +26,25 @@ Aplicação web para **cadastrar vendas** e **acompanhar os resultados em um das
 ## ⚙️ Como executar
 
 1. Clone o repositório e entre na pasta do projeto:
-   ```bash
-   git clone https://github.com/seu-usuario/projetos-python-hashtag.git
-   cd projetos-python-hashtag/04-sistema-vendas-streamlit
-   ```
+```bash
+   git clone https://github.com/rodrigokk1975/Jornada_Python.git
+   cd Jornada_Python/04-sistema-vendas-streamlit
+```
 
 2. Instale as dependências:
-   ```bash
+```bash
    pip install streamlit pandas plotly
-   ```
+```
 
-3. Confira se o arquivo `vendas.csv` está na mesma pasta do script, com as colunas:
-   ```
+3. O arquivo `vendas.csv` já está incluído na pasta, com as colunas:
+```
    data,vendedor,produto,quantidade,valor
-   ```
+```
 
 4. Execute a aplicação:
-   ```bash
+```bash
    streamlit run main.py
-   ```
+```
 
 5. O navegador abrirá automaticamente em `http://localhost:8501`.
 
@@ -70,10 +70,3 @@ Aplicação web para **cadastrar vendas** e **acompanhar os resultados em um das
 - Leitura e gravação de dados em CSV com Pandas
 - Criação de métricas e gráficos interativos com Plotly (barras e pizza)
 - Construção de um pequeno sistema completo: entrada de dados, armazenamento e dashboard
-
-## 🚀 Próximos passos
-
-- Formatar o faturamento no padrão brasileiro (R$ 1.234,50)
-- Adicionar filtros por vendedor, produto e período
-- Validar o formulário (impedir quantidade ou valor zerados)
-- Trocar o CSV por um banco de dados (SQLite, por exemplo) para que os dados não se percam em um deploy na nuvem
