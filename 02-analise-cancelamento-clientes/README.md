@@ -2,7 +2,7 @@
 
 # 📊 Análise de Cancelamento de Clientes com Python
 
-Projeto desenvolvido durante o curso **Python Impressionador (Intensivão de Python)** da **Hashtag Treinamentos**, na área de **Análise de Dados**.
+Projeto desenvolvido durante o curso "Jornada Python" da "Hashtag Programacao", na área de **Análise de Dados**.
 
 ## 🎯 Contexto do problema
 
@@ -40,22 +40,22 @@ Uma empresa com mais de 800 mil clientes percebeu que a maior parte da sua base 
 ## ⚙️ Como executar
 
 1. Clone o repositório e entre na pasta do projeto:
-   ```bash
-   git clone https://github.com/seu-usuario/projetos-python-hashtag.git
-   cd projetos-python-hashtag/02-analise-cancelamento-clientes
-   ```
+```bash
+   git clone https://github.com/rodrigokk1975/Jornada_Python.git
+   cd Jornada_Python/02-analise-cancelamento-clientes
+```
 
 2. Instale as dependências:
-   ```bash
+```bash
    pip install pandas plotly jupyter
-   ```
+```
 
-3. Baixe a base de dados [neste link](https://drive.google.com/drive/folders/1uDesZePdkhiraJmiyeZ-w5tfc8XsNYFZ?usp=drive_link) e coloque o arquivo `cancelamentos.csv` na mesma pasta do notebook.
+3. A base `cancelamentos.csv` já está incluída na pasta. A base original também pode ser baixada [neste link](https://drive.google.com/drive/folders/1uDesZePdkhiraJmiyeZ-w5tfc8XsNYFZ?usp=drive_link).
 
 4. Abra e execute o notebook:
-   ```bash
+```bash
    jupyter notebook analise.ipynb
-   ```
+```
 
 ## 📁 Estrutura do projeto
 
