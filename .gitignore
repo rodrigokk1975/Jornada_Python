@@ -1,0 +1,9 @@
+# Chaves e segredos
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
