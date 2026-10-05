@@ -2,7 +2,7 @@
 
 # 🤖 Automação de Cadastro de Produtos com Python
 
-Projeto desenvolvido durante o curso **Python Impressionador (Intensivão de Python)** da **Hashtag Treinamentos**.
+Projeto desenvolvido durante o curso "Jornada Python" da "Hashtag Programaçao".
 
 O script automatiza o login em um sistema web e o cadastro em massa de produtos a partir de uma planilha CSV, simulando as ações de um usuário (cliques e digitação no teclado).
 
@@ -25,30 +25,30 @@ O script automatiza o login em um sistema web e o cadastro em massa de produtos 
 ## 🛠️ Tecnologias utilizadas
 
 - [Python 3](https://www.python.org/)
-- [PyAutoGUI](https://pyautogui.readthedocs.io/) – automação de mouse e teclado
-- [Pandas](https://pandas.pydata.org/) – leitura e manipulação da base de dados
+- [PyAutoGUI](https://pyautogui.readthedocs.io/): automação de mouse e teclado
+- [Pandas](https://pandas.pydata.org/): leitura e manipulação da base de dados
 
 ## ⚙️ Como executar
 
 1. Clone o repositório e entre na pasta do projeto:
-   ```bash
-   git clone https://github.com/seu-usuario/projetos-python-hashtag.git
-   cd projetos-python-hashtag/01-automacao-cadastro-produtos
-   ```
+```bash
+   git clone https://github.com/rodrigokk1975/Jornada_Python.git
+   cd Jornada_Python/01-automacao-cadastro-produtos
+```
 
 2. Instale as dependências:
-   ```bash
+```bash
    pip install pyautogui pandas
-   ```
+```
 
-3. Coloque o arquivo `produtos.csv` na mesma pasta do script.
+3. O arquivo `produtos.csv` já está incluído na pasta.
 
-4. No código, substitua `"sua senha"` pela sua senha de acesso.
+4. No código, substitua `"sua senha"` pela sua senha de acesso (nesse caso o site nao tem senha por servir apenas para testes).
 
 5. Execute o script:
-   ```bash
+```bash
    python main.py
-   ```
+```
 
 > ⚠️ **Importante:** as posições de clique (`x` e `y`) foram definidas para a resolução da minha tela. Se a sua for diferente, use `pyautogui.position()` para descobrir as coordenadas corretas e ajuste no código.
 
