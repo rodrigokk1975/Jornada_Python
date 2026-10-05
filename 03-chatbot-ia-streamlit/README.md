@@ -2,7 +2,7 @@
 
 # 💬 ChatBot com IA usando Python e Streamlit
 
-Projeto desenvolvido durante o curso **Python Impressionador (Intensivão de Python)** da **Hashtag Treinamentos**.
+Projeto desenvolvido durante o curso "Jornada Python" da "Hashtag Programacao".
 
 Aplicação web de chatbot com Inteligência Artificial, criada com **Streamlit** e integrada ao modelo **Gemini** do Google. O chat mantém o histórico da conversa, permitindo que a IA responda levando em conta as mensagens anteriores.
 
@@ -23,31 +23,31 @@ Aplicação web de chatbot com Inteligência Artificial, criada com **Streamlit*
 ## ⚙️ Como executar
 
 1. Clone o repositório e entre na pasta do projeto:
-   ```bash
-   git clone https://github.com/seu-usuario/projetos-python-hashtag.git
-   cd projetos-python-hashtag/03-chatbot-ia-streamlit
-   ```
+```bash
+   git clone https://github.com/rodrigokk1975/Jornada_Python.git
+   cd Jornada_Python/03-chatbot-ia-streamlit
+```
 
 2. Instale as dependências:
-   ```bash
+```bash
    pip install streamlit openai
-   ```
+```
 
 3. Gere uma chave de API gratuita no [Google AI Studio](https://aistudio.google.com/apikey).
 
-4. Copie o arquivo `.streamlit/secrets.toml.example` para `.streamlit/secrets.toml` e cole sua chave:
-   ```toml
+4. Crie a pasta `.streamlit` dentro do projeto e, nela, o arquivo `secrets.toml` com a sua chave:
+```toml
    GEMINI_API_KEY = "sua-chave-aqui"
-   ```
+```
 
 5. Execute a aplicação:
-   ```bash
+```bash
    streamlit run main.py
-   ```
+```
 
 6. O navegador abrirá automaticamente em `http://localhost:8501`.
 
-> 🔒 **Segurança:** nunca suba sua chave de API para o GitHub. O arquivo `.streamlit/secrets.toml` está listado no `.gitignore`.
+> 🔒 **Segurança:** nunca suba sua chave de API para o GitHub. O arquivo `.streamlit/secrets.toml` está listado no `.gitignore` do repositório.
 
 ## 🧠 Como funciona
 
@@ -59,11 +59,10 @@ Aplicação web de chatbot com Inteligência Artificial, criada com **Streamlit*
 ## 📁 Estrutura do projeto
 
 ```
-├── main.py                          # Código da aplicação
+├── main.py                  # Código da aplicação
 ├── .streamlit/
-│   ├── secrets.toml                 # Sua chave da API (NÃO vai ao GitHub)
-│   └── secrets.toml.example         # Modelo do arquivo de chave
-└── README.md                        # Documentação do projeto
+│   └── secrets.toml         # Sua chave da API (criado por você, NÃO vai ao GitHub)
+└── README.md                # Documentação do projeto
 ```
 
 ## 📚 Aprendizados
